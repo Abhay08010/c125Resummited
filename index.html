@@ -1,0 +1,30 @@
+<html>
+   <head>
+        <title>Image recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" href="style.css">
+        
+   </head>
+      
+</head>
+<body background="background.jpg">
+    <center>
+    <h1 class="btn btn-info" style="font-size:25px; font-family: cursive;">Filter Web App</h1>
+    <hr>
+    <br><br>
+    <button class="btn btn-danger" onclick="mustache_filter()" id="mustache" >Mustache Filter</button>
+    &nbsp;&nbsp;&nbsp;
+    <span>
+        <button class="btn btn-success" onclick="lipstick_filter()" id="lipstics">Lipstics Filter</button> 
+    </span>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
